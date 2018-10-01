@@ -244,6 +244,16 @@ hr {
     margin-top: -9px;
  }
 }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+  .navbar-brand {
+    padding-left: 42px;
+  }
+  .footer__content{
+    padding-top: 15px;
+  }
+}
+
 @media only screen and (max-width:767px){
   .navbar-default{
     height: 50%;
@@ -285,6 +295,7 @@ hr {
     text-align: center;
   }
 }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (max-width : 480px){
   .mobile-hide{
@@ -312,18 +323,6 @@ hr {
   }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-width : 768px) and (max-width : 1024px) {
-  .navbar-brand {
-    padding-left: 42px;
-  }
-  .footer__content{
-    padding-top: 15px;
-  }
-  .wealness__health{
-    /* width: 88%; */
-  }
-}
 @media only screen and (min-width : 1600px){
   .wealness__health{
     width: 93%;
